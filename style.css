@@ -1,0 +1,341 @@
+
+.menu{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #0A3871;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: #D8DFE8;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+body{
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+main{
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+/*Área donde introducir el texto que se encriptara o desencriptara*/ 
+.input-texto{
+    position: absolute;
+    width: 655px;
+    height: 640px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3B71;
+    background: #90B1DB;
+
+    border: none;
+    border-radius: 26px;
+    box-shadow: -8px 24px 32px -20px rgba(0.8, 0, 0, 0.8);
+    padding: 10px;
+}
+
+/*Quita el borde cuando se va a escribir*/
+.input-texto:focus{
+    outline: none;
+}
+
+/*Posición y dimensiones del parrafo advertencia*/
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+/*Configuración del simbolo de la advertencia*/
+.imgAdvertencia{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*Configuración del parrafo advertencia*/
+.pAdvertencia{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #272727;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/*Posición de los botones*/
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+/*Configuración del boton encriptar*/
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    text-align: center;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*Configuración del parrafo del boton encriptar*/
+.encriptar p{
+    position: absolute;
+    width: 280px;
+    height: 19px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*Configuración del boton desencriptar*/
+.desencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/*Configuración del parrafo del boton desencriptar*/
+.desencriptar p{
+    position: absolute;
+    width: 280px;
+    height: 19px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*Creación del rectangulo*/
+.rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+    border-radius: 32px;
+}
+
+/*Configuración donde se va a mostrar el mensaje encriptado*/
+.mensaje{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 28px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+    border: none;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+/*Configuración del boton copiar*/
+.copiar{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 32px;
+    top: 840px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    visibility: hidden;
+}
+
+/*Para centrar el contenido de los botones*/
+.copiar p{
+    position: absolute;
+    width: 288px;
+    height: 19px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*Dando posición pMensaje*/
+#pMensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 338px;
+    height: 122px;
+    left: 1029px;
+    top: 619px;
+
+    visibility: visible;
+}
+
+/*Configurando el primer mensaje*/
+.p1{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/*Configurando el segundo mensaje*/
+.p2{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/*Configuración y posicionamiento del pie de página*/
+footer{
+    position: absolute;
+    left: 900px;
+    top: 1300px;
+}
