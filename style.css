@@ -43,15 +43,15 @@
 
 body{
     width: 1440px;
-    height: 1024px;
+    height: 1050px;
     background: #F3F5FC;
 }
 
 main{
     display: flex;
     position: absolute;
-    left: 200px;
-    top: 150px;
+    left: 80spx;
+    top: 5px;
 }
 
 /*Área donde introducir el texto que se encriptara o desencriptara*/ 
@@ -336,6 +336,6 @@ main{
 /*Configuración y posicionamiento del pie de página*/
 footer{
     position: absolute;
-    left: 900px;
-    top: 1300px;
+    left: 630px;
+    top: 1025px;
 }
