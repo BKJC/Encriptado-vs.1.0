@@ -152,9 +152,9 @@ main{
 /*Configuración del parrafo del boton encriptar*/
 .encriptar p{
     position: absolute;
-    width: 280px;
-    height: 19px;
-    top: 10px;
+    width: 320px;
+    left: 2px;
+    top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -188,9 +188,9 @@ main{
 /*Configuración del parrafo del boton desencriptar*/
 .desencriptar p{
     position: absolute;
-    width: 280px;
-    height: 19px;
-    top: 10px;
+    width: 320px;
+    left: 354px;
+    top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -268,7 +268,8 @@ main{
     position: absolute;
     width: 288px;
     height: 19px;
-    top: 10px;
+    left: 25px;
+    top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -362,9 +363,9 @@ footer{
     /*Posición en donde se introduce el texto*/
     .input-texto{
         width: 658px;
-        height: 300px;
+        height: 400px;
         left: 40px;
-        top: 240px;
+        top: 140px;
     }
 
     /*Posición del mensaje de advertencia*/
@@ -418,6 +419,7 @@ footer{
     /*Posición texto copiar*/
     .copiar p{
         left: 150px;
+        top: 20px;
     }
 
     /*Posición del footer*/
@@ -495,5 +497,51 @@ footer{
         left: 23px;
         top: 110px;
     }
+
+    /*Posición del mensaje*/
+    .rectangulo{
+        top: 660px;
+        left: 25px;
+        width: 270px;
+        height: 168px;
+    }
+
+    /*Posisción de mensaje*/
+    .mensaje{
+        width: 270px;
+        height: 110px;
+    }
     
+    #pMensaje, .p1, .p2{
+        width: 270px;
+        left: 55px;
+        top: 700px;
+    }
+
+    .p1{
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+
+    .p2{
+        font-size: 12px;
+    }
+
+    /*Posición del boton copiar*/
+    .copiar{
+        width: 279px;
+        left: 28px;
+        top: 150px;
+    }
+
+    .copiar p{
+        left: 1px;
+        top: 18px;
+        width: 271px;
+    }
+
+    footer{
+        left: 36px;
+        top: 950px;
+    }
 }
