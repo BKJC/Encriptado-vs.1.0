@@ -430,7 +430,7 @@ footer{
 }
 
 /*Crear responsivo para celulares*/
-@media screen and (max-width: 375px){
+@media screen and (max-width: 576px){
     body{
         width: 375px;
         height: 1000px;
@@ -469,6 +469,7 @@ footer{
         left: 20px;
         top: 85px;
         width: 310px;
+        height: 300px;
     }
 
     /*Posición del mensaje de advertencia*/
@@ -488,12 +489,14 @@ footer{
 
     /*Posición parrafo del boton encriptar*/
     .encriptar p{
+        width: 280px;
         top: 20px;
         left: 23px;
     }
 
     /*Posición parrafo del boton desencriptar*/
     .desencriptar p{
+        width: 280px;
         left: 23px;
         top: 110px;
     }
@@ -535,8 +538,8 @@ footer{
     }
 
     .copiar p{
-        left: 1px;
-        top: 18px;
+        left: 4px;
+        top: 20px;
         width: 271px;
     }
 
