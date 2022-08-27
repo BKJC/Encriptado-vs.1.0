@@ -426,3 +426,27 @@ footer{
         top: 1150px;
     }
 }
+
+/*Crear responsivo para celulares*/
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+        height: 1000px;
+        border: 1px solid;
+    }
+
+    header{
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    /*Posición del logo*/
+    .logo{
+
+    }
+    
+    
+}
