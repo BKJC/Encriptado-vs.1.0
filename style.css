@@ -432,7 +432,6 @@ footer{
     body{
         width: 375px;
         height: 1000px;
-        border: 1px solid;
     }
 
     header{
@@ -445,8 +444,56 @@ footer{
 
     /*Posición del logo*/
     .logo{
-
+        width: 65px;
+        height: 40px;
+        left: 0px;
+        top: 25px;
     }
-    
+
+    /*Posición del menu*/
+    .menu{
+        left: 60px;
+        top: 30px;
+    }
+
+    /*Ajustes a los objetos del menu*/
+    .menu ul li a{
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    /*Posición del input-texto*/
+    .input-texto{
+        left: 20px;
+        top: 85px;
+        width: 310px;
+    }
+
+    /*Posición del mensaje de advertencia*/
+    .advertencia{
+        left: 30px;
+        top: 420px;
+    }
+
+    /*Posición botones*/
+    .botones{
+        flex-direction: column;
+        width: 343px;
+        height: 158px;
+        left: 25px;
+        top: 460px;
+    }
+
+    /*Posición parrafo del boton encriptar*/
+    .encriptar p{
+        top: 20px;
+        left: 23px;
+    }
+
+    /*Posición parrafo del boton desencriptar*/
+    .desencriptar p{
+        left: 23px;
+        top: 110px;
+    }
     
 }
