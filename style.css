@@ -408,6 +408,18 @@ footer{
         top: 810px;
     }
 
+    /*Posición el boton para copiar*/
+    .copiar{
+        width: 614px;
+        height: 67px;
+        top: 270px;
+    }
+
+    /*Posición texto copiar*/
+    .copiar p{
+        left: 150px;
+    }
+
     /*Posición del footer*/
     footer{
         left: 250px;
