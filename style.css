@@ -339,3 +339,79 @@ footer{
     left: 630px;
     top: 1025px;
 }
+
+/*Crear responsivo para tablet*/
+@media screen and (max-width:768px){
+    body{
+        width: 768px;
+        height: 1200px;
+        border: 1px solid;
+    }
+
+    /*Posición del Logo*/
+    .logo{
+        width: 31.09px;
+        height: 50.58px;
+        left: 40px;
+    }
+
+    /*Posición del menu de navegación*/
+    .menu{
+        left: 100px;
+    }
+
+    /*Posición en donde se introduce el texto*/
+    .input-texto{
+        width: 658px;
+        height: 300px;
+        left: 40px;
+        top: 240px;
+    }
+
+    /*Posición del mensaje de advertencia*/
+    .advertencia{
+        left: 40px;
+        top: 600px;
+    }
+
+    /*Posición de los botones*/
+    .botones{
+        width: 688px;
+        left: 40px;
+        top: 634px;
+    }
+
+    /*Posición del rectangulo*/
+    .rectangulo{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        width: 618px;
+        height: 300px;
+        left: 40px;
+        top: 750px;
+    }
+
+    /*Posición del mensaje*/
+    .mensaje{
+        background-image: none;
+        width: 624px;
+        height: 190px;
+    }
+
+    /*Posición de los parrafos en el mensaje*/
+    #pMensaje, .p1, .p2{
+        width: 624px;
+        height: 69px;
+        left: 60px;
+        top: 810px;
+    }
+
+    /*Posición del footer*/
+    footer{
+        left: 250px;
+        top: 1150px;
+    }
+}
